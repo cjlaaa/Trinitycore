@@ -3,8 +3,8 @@ set dd=%DATE:~0,10%
 set tt=%time:~0,8%
 echo ====Trinitycore automatic update start %dd:/=-% %tt%====
 
-taskkill /f /t /im authserver.exe
-taskkill /f /t /im worldserver.exe
+taskkill /t /im authserver.exe
+taskkill /t /im worldserver.exe
 
 git -C C:\TrinityCore\TrinityCore pull
 cmake -S C:\TrinityCore\TrinityCore\ -B C:\TrinityCore\build\
@@ -24,3 +24,4 @@ start C:\TrinityCore\server\worldserver.exe
 set dd=%DATE:~0,10%
 set tt=%time:~0,8%
 echo ====Trinitycore automatic update end %dd:/=-% %tt%====
+exit
