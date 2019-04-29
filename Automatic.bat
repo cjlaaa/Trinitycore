@@ -1,7 +1,7 @@
 @echo off
 set dd=%DATE:~0,10%
 set tt=%time:~0,8%
-echo "====Trinitycore automatic update start %dd:/=-% %tt%===="
+echo ====Trinitycore automatic update start %dd:/=-% %tt%====
 
 taskkill /t /im authserver.exe
 taskkill /t /im worldserver.exe
@@ -23,4 +23,4 @@ start C:\TrinityCore\server\worldserver.exe
 
 set dd=%DATE:~0,10%
 set tt=%time:~0,8%
-echo "====Trinitycore automatic update end %dd:/=-% %tt%===="
+echo ====Trinitycore automatic update end %dd:/=-% %tt%====
