@@ -1,2 +1,8 @@
 *.log
 *.pdb
+worldserver
+authserver
+mapextractor
+mmaps_generator
+vmap4assembler
+vmap4extractor
