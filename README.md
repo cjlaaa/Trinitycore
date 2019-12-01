@@ -1,2 +1,2 @@
-# Trinitycore
-Trinitycore Compiled executable program.
+# Trinitycore自动运维更新系统
+每日自动更新编译Trinitycore最新版本并备份玩家数据库.
