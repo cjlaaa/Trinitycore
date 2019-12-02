@@ -23,6 +23,7 @@ cp worldserver.conf.dist worldserver.conf
 
 # 上传到github
 cd ~/server/
+git pull
 git add .
 NOW=$(date +"%m-%d-%Y %H:%M:%S")
 git commit -m "Trinitycore automatic update $NOW"
