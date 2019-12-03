@@ -17,9 +17,9 @@ make -j 2
 make install
 
 # 更新配置文件
-cd ~/server/etc/
-cp authserver.conf.dist authserver.conf
-cp worldserver.conf.dist worldserver.conf
+# cd ~/server/etc/
+# cp authserver.conf.dist authserver.conf
+# cp worldserver.conf.dist worldserver.conf
 
 # 上传到github
 cd ~/server/
