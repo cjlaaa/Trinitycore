@@ -6,8 +6,8 @@
 
 # 备份玩家数据库
 cd ~/server/
-mysqldump -P3306 -utrinity -ptrinity --databases auth > auth.sql 
-mysqldump -P3306 -utrinity -ptrinity --databases characters > characters.sql
+# mysqldump -P3306 -utrinity -ptrinity --databases auth > auth.sql 
+# mysqldump -P3306 -utrinity -ptrinity --databases characters > characters.sql
 
 # 更新&&编译服务器
 cd ~/TrinityCore/
